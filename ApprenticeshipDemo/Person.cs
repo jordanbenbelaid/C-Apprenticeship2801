@@ -6,6 +6,8 @@
         private int Age;
         private string Name;
         private string Email;
+        //this static counter belongs to the Person class
+        //so anytime a person object is created, the counter increases by 1
         public static int Counter = 0;
 
 
@@ -15,9 +17,11 @@
             this.Age = Age;
             this.Name = Name;
             this.Email = Email;
+            //increase the counter by 1 when this constructor is used
             Counter++;
         }
 
+        //increase the counter by 1 when this constructor is used
         public Person() { Counter++; }
 
 
