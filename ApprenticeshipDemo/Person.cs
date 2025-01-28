@@ -6,6 +6,8 @@
         private int Age;
         private string Name;
         private string Email;
+        public static int Counter = 0;
+
 
         //constructor
         public Person(int Age, string Name, string Email)
@@ -13,9 +15,10 @@
             this.Age = Age;
             this.Name = Name;
             this.Email = Email;
+            Counter++;
         }
 
-        public Person() { }
+        public Person() { Counter++; }
 
 
         //getters and setters
@@ -32,16 +35,17 @@
 
         //methods
 
-        public string Walk()
+        public static string Walk()
         {
             return "I am walking";
         }
 
+        //ToString
         public override string ToString()
         {
             return "Person - Name: " + Name + ", Age: " + Age + ", Email: " + Email;
         }
 
-
+        
     }
 }

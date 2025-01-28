@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WORK\\C#\\ApprenticeshipDemo\\ApprenticeshipDemo.csproj",
+      "projectUniqueName": "D:\\WORK\\C#\\280125\\ApprenticeshipDemo\\ApprenticeshipDemo.csproj",
       "projectName": "ApprenticeshipDemo",
-      "projectPath": "D:\\WORK\\C#\\ApprenticeshipDemo\\ApprenticeshipDemo.csproj",
+      "projectPath": "D:\\WORK\\C#\\280125\\ApprenticeshipDemo\\ApprenticeshipDemo.csproj",
       "packagesPath": "C:\\Users\\Jordan\\.nuget\\packages\\",
-      "outputPath": "D:\\WORK\\C#\\ApprenticeshipDemo\\obj\\",
+      "outputPath": "D:\\WORK\\C#\\280125\\ApprenticeshipDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
