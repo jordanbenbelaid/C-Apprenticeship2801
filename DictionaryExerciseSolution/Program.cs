@@ -13,6 +13,7 @@
             students.Add(3, "Charlie");
 
             // Retrieve and print a student name using their ID
+            //TryGetValue will try to get the value if the key exists, store the value in the variable name
             int idToFind = 2;
             if (students.TryGetValue(idToFind, out string name))
             {
