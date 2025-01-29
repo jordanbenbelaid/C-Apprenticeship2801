@@ -39,5 +39,9 @@ namespace ZooDemoSolution
 
 
         //STRETCH - create a FindAnimalByType method
+        public List<Animal> FindAnimalByType(Type type)
+        {
+            return animals.Where(a => a.GetType() == type).ToList();
+        }
     }
 }
