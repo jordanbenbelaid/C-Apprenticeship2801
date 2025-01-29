@@ -13,9 +13,14 @@
 
             Dog dog = new Dog(2, "Black", true, 4, "Saffron");
 
+            Cat cat = new Cat(3, "white", false, 4, true);
+
             Console.WriteLine(dog);
 
+            dog.noise();
 
+            Zoo zoo = new Zoo();
+            
 
             //Encapsulate fields (and use properties):
             //We access fields through properties (The generated getters and setters)

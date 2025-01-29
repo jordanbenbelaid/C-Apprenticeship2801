@@ -72,15 +72,18 @@ namespace ZooDemoSolution
         //}
 
         //Any other methods
-        public void noise()
+
+        //This is where we have to add virtual to allow the method to be overridden in the child class
+        public virtual void noise()
         {
             Console.WriteLine("Animal noise");
         }
 
-        //public override string ToString()
-        //{
-        //    return "Animal - id: " + Id1 + ", \nColour: " + Colour1 + ", \nHas Fur: "
-        //        + HasFur1 + ", \nNumber of legs: " + NoOfLegs1;
-        //}
+
+        public override string ToString()
+        {
+            return "Animal - id: " + Id1 + ", \nColour: " + Colour1 + ", \nHas Fur: "
+                + HasFur1 + ", \nNumber of legs: " + NoOfLegs1;
+        }
     }
 }
